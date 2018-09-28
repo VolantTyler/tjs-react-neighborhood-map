@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Container from './Container'
+import List from './List'
 
 // starter code for Google Maps API from https://www.fullstackreact.com/articles/how-to-write-a-google-maps-react-component/
 
