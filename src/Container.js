@@ -18,10 +18,10 @@ export class Container extends React.Component {
       return (
           <div >
             <Row>
-              <Col xs='3'>
+              <Col className='hidden-xs col-sm-3 side-list'>
                 <List />
               </Col>
-              <Col xs='9'>
+              <Col className='col-xs-12 col-sm-9'>
                 <Map 
                     google={this.props.google} 
                     style={style}

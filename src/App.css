@@ -9,7 +9,7 @@
 
 .App-header {
   background-color: #222;
-  height: 150px;
+  height: 160px;
   padding: 20px;
   color: white;
 }
@@ -25,4 +25,17 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+/* mycode */
+.side-list {
+  background-color: #222;
+  color: white;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+@media screen and (max-width: 480px) {
+  .side-list {
+    display: none;
+  }
 }
