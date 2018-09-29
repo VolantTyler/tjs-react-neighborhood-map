@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Container from './Container'
+import NavBar from './NavBar'
 
 // starter code for Google Maps API from https://www.fullstackreact.com/articles/how-to-write-a-google-maps-react-component/
 
@@ -23,6 +24,7 @@ class App extends Component {
             onClick={() => this.showList()}
           >Search List</button>
         </header>
+        <NavBar />
         <Container />
       </div>
     );
