@@ -12,11 +12,15 @@ export class Container extends React.Component {
             height: '100vh'
           }
 
+
       if (!this.props.loaded) {
         return <div>Loading...</div>
       }
       return (
           <div >
+            {/* <div id='mobile-slider-list'>
+              <List />
+            </div> */}
             <Row>
               <Col className='hidden-xs col-sm-3 side-list'>
                 <List />

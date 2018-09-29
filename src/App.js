@@ -8,7 +8,8 @@ import Container from './Container'
 class App extends Component {
 
   showList = () =>{
-
+    const list = document.getElementById('mobile-slider-list');
+    list.toggleClass('open');
   }
 
   render() {
@@ -19,8 +20,8 @@ class App extends Component {
           <h1 className="App-title">Start Here</h1>
           <button 
             text='Search List'
-            onClick={() => this.showList}
-          />
+            onClick={() => this.showList()}
+          >Search List</button>
         </header>
         <Container />
       </div>

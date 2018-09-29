@@ -11,7 +11,7 @@ class List extends React.Component {
 
 
       return (
-          <div className='side-list'>
+          <div >
             <ul >
                 <li>One</li>
                 <li>Two</li>
