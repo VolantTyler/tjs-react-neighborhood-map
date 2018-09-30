@@ -7,6 +7,7 @@ import './App.css';
 import Container from './Container'
 import NavBar from './NavBar'
 import { findDOMNode } from 'react-dom';
+import List from './List'
 import {SideNav, Button, SideNavItem} from 'react-materialize'
 
 // starter code for Google Maps API from https://www.fullstackreact.com/articles/how-to-write-a-google-maps-react-component/
@@ -24,7 +25,7 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Start Here</h1>
-          <Button>SIDE NAV DEMO</Button>
+          <Button>Search List</Button>
           {/* <button 
             text='Search List'
             onClick={() => this.showList()}
@@ -32,17 +33,18 @@ class App extends Component {
         </header>
         <NavBar />
         <SideNav
-          trigger={<Button>SIDE NAV DEMO</Button>}
+          trigger={<Button>Search List</Button>}
           options={{ closeOnClick: true }}
           >
-          <SideNavItem userView
+          {/* <SideNavItem userView
             user={{
               background: 'img/office.jpg',
               image: 'img/yuna.jpg',
               name: 'John Doe',
               email: 'jdandturk@gmail.com'
             }}
-          />
+          /> */}
+          <List />
           <SideNavItem href='#!icon' icon='cloud'>First Link With Icon</SideNavItem>
           <SideNavItem href='#!second'>Second Link</SideNavItem>
           <SideNavItem divider />

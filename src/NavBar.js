@@ -20,7 +20,7 @@ export default class Example extends React.Component {
   render() {
     return (
       <div>
-        <Navbar color="faded" light>
+        <Navbar color="faded" light fixed='top'>
           <NavbarBrand href="/" className="mr-auto">Neighborhood Map</NavbarBrand>
           <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
           <Collapse isOpen={!this.state.collapsed} navbar>
