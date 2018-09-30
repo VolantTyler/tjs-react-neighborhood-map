@@ -42,7 +42,7 @@ body {
   width: 15%;
   z-index: 1;
   height: 100vh;
-  background-color: #666;
+  background-color: #fff;
   color:black;
   
     top: 0;
@@ -50,11 +50,11 @@ body {
     overflow-x: hidden;
     padding-top: 20px;
 }
-/* @media screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {
   .side-list {
-    display: none;
+    width: 50%;  
   }
-} */
+}
 
 #mobile-slider-list {
   position: relative;

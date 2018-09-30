@@ -9,7 +9,8 @@ export class Container extends React.Component {
     render() {
         const style = {
             //width: '100vw',
-            height: '100vh'
+            height: '100vh',
+            top: '60px'
           }
 
 
@@ -33,7 +34,7 @@ export class Container extends React.Component {
               </Col>
             </Row> */}
 
-                <List />
+                {/* <List /> */}
                 <Map 
                     google={this.props.google} 
                     style={style}
