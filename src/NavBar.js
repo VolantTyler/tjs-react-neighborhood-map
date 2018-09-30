@@ -1,4 +1,5 @@
 import React from 'react';
+import List from './List'
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
 
 export default class Example extends React.Component {
@@ -24,6 +25,7 @@ export default class Example extends React.Component {
           <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
           <Collapse isOpen={!this.state.collapsed} navbar>
             <Nav navbar>
+                <List />
               <NavItem>
                 <NavLink href="/components/">Components</NavLink>
               </NavItem>

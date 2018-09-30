@@ -11,14 +11,12 @@ class List extends React.Component {
 
 
       return (
-          <div >
-            <ul >
+            <ul className='side-list' >
                 <li>One</li>
                 <li>Two</li>
                 <li>Three</li>
                 <li>Four</li>
             </ul>
-          </div>
       )
     }
   }

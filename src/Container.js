@@ -21,17 +21,23 @@ export class Container extends React.Component {
             {/* <div id='mobile-slider-list'>
               <List />
             </div> */}
-            <Row>
+            {/* <Row>
               <Col className='hidden-xs col-sm-3 side-list'>
                 <List />
               </Col>
-              <Col className='col-xs-12 col-sm-9'>
+              <Col className='col-xs-12 col-sm-9'> 
                 <Map 
                     google={this.props.google} 
                     style={style}
                 />
               </Col>
-            </Row>
+            </Row> */}
+
+                <List />
+                <Map 
+                    google={this.props.google} 
+                    style={style}
+                />
           </div>
       )
     }
