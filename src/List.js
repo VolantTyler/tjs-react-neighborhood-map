@@ -11,8 +11,8 @@ class List extends React.Component {
 
 
       return (
-            <ul className='side-list' >
-                <li>
+            <div className='side-list' >
+                <div className='list-entry'>
                     <h1>Restaurant Name</h1>
                     <p>
                         123 Main Street
@@ -21,8 +21,8 @@ class List extends React.Component {
                     <p>
                         123-456-7890
                     </p>
-                </li>
-                <li>
+                </div>
+                <div className='list-entry'>
                 <h1>Restaurant Name</h1>
                     <p>
                         123 Main Street
@@ -31,8 +31,8 @@ class List extends React.Component {
                     <p>
                         123-456-7890
                     </p>
-                </li>
-                <li>
+                </div>
+                <div className='list-entry'>
                 <h1>Restaurant Name</h1>
                     <p>
                         123 Main Street
@@ -41,8 +41,8 @@ class List extends React.Component {
                     <p>
                         123-456-7890
                     </p>
-                </li>
-                <li>
+                </div>
+                <div className='list-entry'>
                 <h1>Restaurant Name</h1>
                     <p>
                         123 Main Street
@@ -51,8 +51,8 @@ class List extends React.Component {
                     <p>
                         123-456-7890
                     </p>
-                </li>
-            </ul>
+                </div>
+            </div>
       )
     }
   }

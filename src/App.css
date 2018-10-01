@@ -57,10 +57,16 @@ body {
   }
 } */
 
-#mobile-slider-list {
+.list-entry {
+  border: 10px;
+  border-color: black;
+}
+
+
+/* #mobile-slider-list {
   position: relative;
   left: -1000px;
 }
 .open {
   left: 0px !important;
-}
+} */
