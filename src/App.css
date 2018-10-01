@@ -39,7 +39,8 @@ body {
 
   /* from https://github.com/zaynaib/map/blob/master/src/App.css */
   float:left;
-  width: 15%;
+  width: 325px;
+  max-width: 100%;
   z-index: 1;
   height: 100vh;
   background-color: #fff;
@@ -50,11 +51,11 @@ body {
     overflow-x: hidden;
     padding-top: 20px;
 }
-@media screen and (max-width: 480px) {
+/* @media screen and (max-width: 480px) {
   .side-list {
     width: 50%;  
   }
-}
+} */
 
 #mobile-slider-list {
   position: relative;

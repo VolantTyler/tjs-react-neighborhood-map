@@ -12,10 +12,46 @@ class List extends React.Component {
 
       return (
             <ul className='side-list' >
-                <li>One__________________</li>
-                <li>Two___________________</li>
-                <li>Three</li>
-                <li>Four</li>
+                <li>
+                    <h1>Restaurant Name</h1>
+                    <p>
+                        123 Main Street
+                        Omaha NE 68130
+                    </p>
+                    <p>
+                        123-456-7890
+                    </p>
+                </li>
+                <li>
+                <h1>Restaurant Name</h1>
+                    <p>
+                        123 Main Street
+                        Omaha NE 68130
+                    </p>
+                    <p>
+                        123-456-7890
+                    </p>
+                </li>
+                <li>
+                <h1>Restaurant Name</h1>
+                    <p>
+                        123 Main Street
+                        Omaha NE 68130
+                    </p>
+                    <p>
+                        123-456-7890
+                    </p>
+                </li>
+                <li>
+                <h1>Restaurant Name</h1>
+                    <p>
+                        123 Main Street
+                        Omaha NE 68130
+                    </p>
+                    <p>
+                        123-456-7890
+                    </p>
+                </li>
             </ul>
       )
     }
