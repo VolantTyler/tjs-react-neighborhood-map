@@ -12,6 +12,7 @@ class List extends React.Component {
 
       return (
             <div className='side-list' >
+                <input id='search-input' placeholder='Search Here'></input>
                 <div className='list-entry'>
                     <h1>Restaurant Name</h1>
                     <p>
